@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>File Converter</title>
-  <link rel="stylesheet" type="text/css" href="fileconvert.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random BG Generator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>File Converter</h1>
-    <input type="file" id="fileInput">
-    <button onclick="convertFile()">Convert</button>
-    <p id="conversionResult"></p>
-  </div>
-
-  <script src="file.js"></script>
+    <div class="main">
+        <div class="color">
+            The colour code is :<span class="changedcolor"></span>
+        </div>
+        <button type="button" class="btn" onclick="makechanges()">Click here to Randomize BG</button>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
